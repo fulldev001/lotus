@@ -1,0 +1,60 @@
+.about_main{
+    width: 100%;
+    padding: 0 209px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+    font-size: 80px;
+}
+.para{
+    margin: auto;
+    width: 1127px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 89px;
+}
+
+.sub_head{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+    margin-top: 75px;
+}
+.sub_para{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+.emp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emp .left .info {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.empName{
+    font-weight: bold;
+}
+.right{
+    margin-left: 110px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.emp:last-child{
+    margin: 90px 0 65px 0;
+}
+.mb-50{
+    margin-bottom: 50px;
+}

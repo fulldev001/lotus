@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px 50px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.52);
+    position: relative;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right ul{
+    display: flex;
+}
+.right ul li a:last-child{
+    margin-left: 45px;
+}
+.right ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

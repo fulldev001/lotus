@@ -1,0 +1,55 @@
+.contact_foo{
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    border-top: 5px solid rgba(255, 255, 255, 0.52);;
+}
+.contact_foo .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_foo .top .privacy {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-right: 42px;
+}
+.contact_foo .top .tos{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.contact_foo .bot .copy{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}.contact_foo{
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    border-top: 5px solid rgba(255, 255, 255, 0.52);;
+}
+.contact_foo .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_foo .top .privacy {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-right: 42px;
+}
+.contact_foo .top .tos{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.contact_foo .bot .copy{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

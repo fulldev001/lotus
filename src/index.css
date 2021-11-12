@@ -1,3 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"),
+  url("./fonts/Helvetica.ttf") format("truetype")
+}
+@font-face {
+  font-family: "Arial-mt";
+  src: local("Arial-Rounded-MT"),
+  url("./fonts/Arial-Rounded-MT.ttf") format("truetype")
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +21,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #090A0A,#1A7EE0,#E54EBC,#08090A);
+  min-height: 100vh;
+  width: 100%;
 }
+
+ul li{
+  list-style: none;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

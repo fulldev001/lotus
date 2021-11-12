@@ -1,0 +1,125 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-self: baseline;
+    padding: 0 0 0 170px;
+    margin: 120px 0 10px 0;
+}
+.text h1{
+    font-size: 120px;
+    font-weight: bold;
+    font-family: Arial-mt;
+    text-transform: uppercase;
+}
+.text p{
+    font-size: 18px;
+    font-weight: medium;
+    text-align: center;
+}
+.mid_h_text{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 180px;
+}
+
+.info_h{
+    padding: 0 280px;
+    display: flex;
+    align-items: center;
+}
+
+.info_h .left_text{
+    margin-right: 125px;
+    margin-bottom: 60px;
+}
+
+.info_h .right_text{
+    margin-left: 125px;
+}
+.info_h .left_text h3,
+.info_h .right_text h3{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+.info_h .left_text p,
+.info_h .right_text p{
+    color: #DBDBDB;
+    font-size: 30px;
+}
+
+.cross_plat{
+    margin-top: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cross_plat h3{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.cross_plat p{
+    font-size:30px;
+    color: #C4C4C4;
+    text-align: center;
+}
+.cross_plat .social{
+    /* border: 1px solid white; */
+    height:250px;
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+}
+.ll{
+    position: absolute;
+    top: 0;
+    left: 110px;
+    height: 112px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: rotate(30deg)
+}
+.rl{
+    position: absolute;
+    top: 0;
+    right: 110px;
+    height: 112px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: rotate(-30deg)
+}
+
+.download{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 160px;
+    margin-bottom: 110px;
+}
+.d_text h3{
+    font-size: 80px;
+    font-weight: bold;
+}
+.d_text p{
+    font-size: 50px;
+}
+.download button{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 22px 70px;
+    background: linear-gradient(to right, #4754F5, #46A5EB, #44BCC3);
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+}
